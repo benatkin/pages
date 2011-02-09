@@ -14,5 +14,7 @@ couchapp_load([
   "../vendor/couchapp/jquery.couch.app.util.js",
   "../vendor/couchapp/jquery.mustache.js",
   "../vendor/couchapp/jquery.pathbinder.js",
-  "../vendor/couchapp/jquery.evently.js"
+  "../vendor/couchapp/jquery.evently.js",
+  "../script/underscore.js",
+  "../script/backbone.js"
 ]);
