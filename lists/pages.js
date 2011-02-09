@@ -5,7 +5,7 @@ function() {
     data = {
       title : "All Pages",
       site_title : this.couchapp.name,
-      path : "/pages/recent",
+      path : "recent",
       pages : []
     };
   provides("html", function() {

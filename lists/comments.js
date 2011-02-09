@@ -5,7 +5,7 @@ function() {
     data = {
       title : "All Comments",
       site_title : this.couchapp.name,
-      path : "/pages/comments",
+      path : "comments",
       comments : []
     };
   provides("html", function() {
