@@ -1,5 +1,6 @@
 
 <form>
+<div class="preview"></div>
 <div class="edit-form">
   <p>Editing: <a href="{{_id}}">/page/{{_id}}</a></p>
   <p><label>Title: <input type="text" name="title" value="{{title}}"></label></p>
@@ -9,8 +10,6 @@
   <p><label>Optional description: <input size="60" type="text" name="note" value="{{note}}"></label> 
     <input type="submit" value="Save Changes">
   </p>
-  {{>help}}
 </div>
-<div class="preview"></div>
 <div class="clear"></div>
 </form>
