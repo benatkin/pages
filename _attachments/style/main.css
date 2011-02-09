@@ -102,11 +102,15 @@ p.menu a {
 }
 
 #wiki pre {
-  background:#ddd;
   padding:4px;
+  background-color: #eee;
 }
 #wiki code {
-  background:#ddd;
+  background-color: #eee;
+}
+#wiki li ul {
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 #comments {
