@@ -4,14 +4,17 @@
     <title>{{title}} - {{site_title}}</title>
     <link rel="stylesheet" href="../style/base-min.css" type="text/css">
     <link rel="stylesheet" href="../style/main.css" type="text/css">
+    <script src="/_utils/script/jquery.js"></script>
   </head>
   <body>
     <div id="main">
       <div id="header">
-        <div id="account"></div>
+        <div id="adminPanel">
+          <div id="account"></div>
+          <div id="profile"></div>
+        </div>
         <h1><a href="../page/index">{{site_title}}</a>: <a href="{{path}}">{{title}}</a></h1>
       </div>
-      <div id="profile"></div>
       <div id="tools"></div>
       <div id="wiki"><div class="wiki">{{{body}}}</div></div>
       <div id="comments"></div>

@@ -45,9 +45,12 @@ a.missing {
   border: none;
 }
 
+#adminPanel {
+  float:right;
+  text-align: right;
+}
 
 #account {
-  float:right;
 }
 
 #account form {
@@ -60,24 +63,14 @@ a.missing {
 }
 
 #profile {
-  border-bottom:1px solid #abc;
-  border-top:1px solid #abc;
-  background:#cde;
-  margin-bottom:8px;
-  float:right;
-  border-left:1px solid #AABBCC;
 }
 
 p.menu {
-  margin:8px;
-  float:right;
+  margin-top: 0.7em;
 }
 
 p.menu a {
-  padding:4px;
-  margin:2px;
-  background:#EAF3FA;
-  border-radius: 5px;
+  margin-left: 1em;
 }
 
 #tools div {
@@ -97,7 +90,6 @@ p.menu a {
 }
 
 #wiki .wiki {
-  width:65%;
   margin:32px 0;
 }
 
